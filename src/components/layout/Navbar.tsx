@@ -60,16 +60,20 @@ export default function Navbar() {
           {/* Logo */}
           <motion.button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="flex items-center gap-2 group cursor-pointer"
+            className="flex items-center gap-2.5 group cursor-pointer"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center shadow-lg shadow-indigo-500/30">
-              <Code2 size={16} className="text-white" />
+            <div className="relative w-9 h-9 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center shadow-md group-hover:border-indigo-500/50 transition-all duration-300 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-violet-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <Code2 size={16} className="text-indigo-400 group-hover:text-violet-400 transition-colors duration-300" />
+              <div className="absolute -inset-px rounded-xl bg-gradient-to-tr from-indigo-500 to-violet-600 opacity-0 group-hover:opacity-100 blur-sm -z-10 transition-opacity duration-300" />
             </div>
-            <span className="font-semibold text-zinc-100 tracking-tight">
-              DA
-              <span className="text-indigo-400">.</span>
+            <span className="font-bold text-zinc-100 tracking-tight text-base flex items-center transition-all duration-300">
+              dasanza
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-violet-400 font-mono font-semibold ml-0.5">
+                .dev
+              </span>
             </span>
           </motion.button>
 

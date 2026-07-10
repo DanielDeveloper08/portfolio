@@ -230,28 +230,67 @@ export default function Hero() {
             </div>
 
             {/* Floating tech badges */}
+            {/* React 19 */}
             <motion.div
               animate={{ y: [-6, 6, -6] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -top-4 -right-4 px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-700 shadow-xl text-xs font-medium text-cyan-400"
+              className="absolute -top-5 -right-5 px-3 py-1.5 rounded-xl bg-zinc-900/90 backdrop-blur-md border border-zinc-800 shadow-2xl text-xs font-semibold text-cyan-400 hover:border-cyan-400/50 transition-colors duration-300"
             >
               React 19
             </motion.div>
 
+            {/* .NET Core */}
             <motion.div
               animate={{ y: [6, -6, 6] }}
               transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-              className="absolute -bottom-4 -left-4 px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-700 shadow-xl text-xs font-medium text-violet-400"
+              className="absolute -bottom-6 -left-6 px-3 py-1.5 rounded-xl bg-zinc-900/90 backdrop-blur-md border border-zinc-800 shadow-2xl text-xs font-semibold text-violet-400 hover:border-violet-400/50 transition-colors duration-300"
             >
               .NET Core
             </motion.div>
 
+            {/* AI/ML */}
             <motion.div
-              animate={{ x: [-4, 4, -4] }}
+              animate={{ x: [-5, 5, -5] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-              className="absolute top-1/2 -right-12 px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-700 shadow-xl text-xs font-medium text-pink-400"
+              className="absolute top-1/2 -translate-y-1/2 -right-16 px-3 py-1.5 rounded-xl bg-zinc-900/90 backdrop-blur-md border border-zinc-800 shadow-2xl text-xs font-semibold text-pink-400 hover:border-pink-400/50 transition-colors duration-300"
             >
               AI/ML
+            </motion.div>
+
+            {/* Swift */}
+            <motion.div
+              animate={{ x: [4, -4, 4] }}
+              transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 0.2 }}
+              className="absolute top-8 -left-14 px-3 py-1.5 rounded-xl bg-zinc-900/90 backdrop-blur-md border border-zinc-800 shadow-2xl text-xs font-semibold text-orange-400 hover:border-orange-400/50 transition-colors duration-300"
+            >
+              Swift
+            </motion.div>
+
+            {/* Kotlin */}
+            <motion.div
+              animate={{ y: [-5, 5, -5] }}
+              transition={{ duration: 4.2, repeat: Infinity, ease: "easeInOut", delay: 1.2 }}
+              className="absolute bottom-10 -right-14 px-3 py-1.5 rounded-xl bg-zinc-900/90 backdrop-blur-md border border-zinc-800 shadow-2xl text-xs font-semibold text-purple-400 hover:border-purple-400/50 transition-colors duration-300"
+            >
+              Kotlin
+            </motion.div>
+
+            {/* n8n */}
+            <motion.div
+              animate={{ x: [-4, 4, -4] }}
+              transition={{ duration: 3.8, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}
+              className="absolute -bottom-8 right-12 px-3 py-1.5 rounded-xl bg-zinc-900/90 backdrop-blur-md border border-zinc-800 shadow-2xl text-xs font-semibold text-rose-400 hover:border-rose-400/50 transition-colors duration-300"
+            >
+              n8n
+            </motion.div>
+
+            {/* Angular */}
+            <motion.div
+              animate={{ y: [5, -5, 5] }}
+              transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}
+              className="absolute top-1/2 -translate-y-1/2 -left-20 px-3 py-1.5 rounded-xl bg-zinc-900/90 backdrop-blur-md border border-zinc-800 shadow-2xl text-xs font-semibold text-red-500 hover:border-red-500/50 transition-colors duration-300"
+            >
+              Angular
             </motion.div>
           </motion.div>
         </motion.div>
