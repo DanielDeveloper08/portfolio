@@ -98,7 +98,7 @@ export default function Navbar() {
           {/* CTA + Mobile Toggle */}
           <div className="flex items-center gap-3">
             <motion.a
-              href="mailto:finanzas.ia@grupoferretti.com"
+              href="mailto:dasanza79@gmail.com"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               className="hidden md:flex items-center gap-2 px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium transition-colors border border-indigo-500/40 shadow-lg shadow-indigo-500/20"
@@ -141,7 +141,7 @@ export default function Navbar() {
                 </motion.button>
               ))}
               <a
-                href="mailto:finanzas.ia@grupoferretti.com"
+                href="mailto:dasanza79@gmail.com"
                 className="mt-2 px-4 py-3 rounded-lg bg-indigo-600 text-white text-sm font-medium text-center"
               >
                 Contactar

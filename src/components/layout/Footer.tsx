@@ -38,7 +38,7 @@ export default function Footer() {
               <LinkedinIcon width={18} height={18} />
             </a>
             <a
-              href="mailto:finanzas.ia@grupoferretti.com"
+              href="mailto:dasanza79@gmail.com"
               className="text-zinc-500 hover:text-zinc-200 transition-colors p-2 rounded-lg hover:bg-zinc-800"
               aria-label="Email"
             >

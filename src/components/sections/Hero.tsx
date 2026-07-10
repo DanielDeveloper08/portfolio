@@ -143,7 +143,7 @@ export default function Hero() {
             </motion.a>
 
             <motion.a
-              href="mailto:finanzas.ia@grupoferretti.com"
+              href="mailto:dasanza79@gmail.com"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               transition={{ type: "spring", stiffness: 400, damping: 25 }}

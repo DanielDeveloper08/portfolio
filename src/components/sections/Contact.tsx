@@ -11,8 +11,8 @@ const contactLinks = [
   {
     id: "email",
     label: "Email",
-    value: "finanzas.ia@grupoferretti.com",
-    href: "mailto:finanzas.ia@grupoferretti.com",
+    value: "dasanza79@gmail.com",
+    href: "mailto:dasanza79@gmail.com",
     icon: Mail,
     description: "Respondo en menos de 24h",
     color: "from-indigo-500/20 to-indigo-600/10 border-indigo-500/20 hover:border-indigo-500/40",
@@ -165,14 +165,14 @@ export default function Contact() {
             O envíame un email directamente
           </p>
           <motion.a
-            href="mailto:finanzas.ia@grupoferretti.com"
+            href="mailto:dasanza79@gmail.com"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             transition={{ type: "spring", stiffness: 400, damping: 25 }}
             className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-semibold shadow-2xl shadow-indigo-500/25 transition-all"
           >
             <Mail size={18} />
-            finanzas.ia@grupoferretti.com
+            dasanza79@gmail.com
           </motion.a>
         </motion.div>
       </div>

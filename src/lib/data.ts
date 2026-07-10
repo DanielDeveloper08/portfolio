@@ -8,7 +8,7 @@ export const personalInfo: PersonalInfo = {
   subtitle: "React · .NET · AI Enthusiast",
   description:
     "Ingeniero de Software con experiencia en el sector bancario construyendo soluciones web y móviles de alta disponibilidad. Especializado en arquitecturas Full Stack, APIs REST y experiencias digitales de nivel enterprise. Apasionado por la Inteligencia Artificial generativa y su aplicación en productos reales.",
-  email: "finanzas.ia@grupoferretti.com",
+  email: "dasanza79@gmail.com",
   github: "https://github.com/DanielDeveloper08",
   linkedin: "https://www.linkedin.com/in/daniel-asanza-developer/",
   whatsapp: "https://wa.me/593995006332?text=Hola%20Daniel%2C%20te%20contacto%20desde%20tu%20portafolio.%20Me%20gustar%C3%ADa%20conversar%20contigo%20sobre%20una%20oportunidad.%20%F0%9F%91%8B",
